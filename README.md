@@ -26,25 +26,36 @@ _Client (Windows Forms)_
 
 
 **🚀 Installation and Launch**
+
 _Requirements_
+
 .NET SDK 6.0+
 WebView2 Runtime (for client)
 Visual Studio 2022 или VS Code
 
 _Step 1. Cloning the repository_
-`git clone https://github.com/your-username/news-aggregator.git
-cd news-aggregator`
+
+`git clone https://github.com/your-username/news-aggregator.git`
+
+`cd news-aggregator`
 
 _Step 2. Launching the backend (API)_
-`cd NewsAggregator.API
-dotnet restore
-dotnet run`
+
+`cd NewsAggregator.API`
+
+`dotnet restore`
+
+`dotnet run`
+
 he API will be available at `http://localhost:5000`.
 
 
 _Step 3. Launching the client (Windows Forms)_
+
 `cd NewsAggregator.Client
-dotnet restore
-dotnet run`
+
+`dotnet restore
+
+`dotnet run`
 
 **Note:** Ensure the API is running before the client. Upon the first launch, the client will check the connection.
