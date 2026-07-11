@@ -52,9 +52,9 @@ he API will be available at `http://localhost:5000`.
 
 _Step 3. Launching the client (Windows Forms)_
 
-`cd NewsAggregator.Client
+`cd NewsAggregator.Client`
 
-`dotnet restore
+`dotnet restore`
 
 `dotnet run`
 
